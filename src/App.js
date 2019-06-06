@@ -24,6 +24,7 @@ class App extends React.Component {
         if (currencies.length === 0) {
             return "Loading";
         }
+
         return <div className="div-table">
             <div className="div-table-row">
                 <div className="div-table-col">
@@ -38,7 +39,6 @@ class App extends React.Component {
                 <div className="div-table-col">
                     <MovingAverage id="char3" currencies={currencies} />
                 </div>
-
                 <div className="div-table-col">
                     <MovingAverage id="char4" currencies={currencies} />
                 </div>
