@@ -29,7 +29,6 @@ class App extends React.Component {
                 <div className="div-table-col">
                     <MovingAverage id="char1" currencies={currencies} />
                 </div>
-
                 <div className="div-table-col">
                     <MovingAverage id="char2" currencies={currencies} />
                 </div>
