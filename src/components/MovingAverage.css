@@ -1,0 +1,49 @@
+.ma-container {
+    border-radius: 15px 15px;
+    border: 1px solid;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.ma-container .ma-current-val {
+    width: 60%;
+    display: block;
+    float: left;
+    font-weight: 600;
+}
+.ma-container .ma-current-val .ma-avg-value {
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+.ma-container .ma-currency select {
+    width: 90px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.ma-container .ma-currency select :focus,
+.ma-container .ma-currency select :active,
+.ma-container .ma-currency select :hover {
+    border: none;
+}
+
+.ma-container .ma-currency select option {
+    background-color: gray;
+    color: ffffff;
+}
+
+.ma-container .ma-percentage {
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+.ma-container .ma-chart {
+    width: 100%;
+}

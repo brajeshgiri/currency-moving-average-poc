@@ -1,0 +1,28 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  svg {
+    background-color: transparent;
+  }
+  .overlay {
+      fill: none;
+      pointer-events: all;
+  }
+  
+  .focus circle {
+      fill: #F1F3F3;
+      stroke: #6F257F;
+      stroke-width: 5px;
+  }
+  .focus text {
+    color: white;
+  }
+  
+  .hover-line {
+      stroke: #6F257F;
+      stroke-width: 2px;
+      stroke-dasharray: 3, 3;
+      color: white;
+  }
